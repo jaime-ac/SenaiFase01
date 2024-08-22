@@ -1,0 +1,152 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+#container{
+    display: flex;
+    height: 100%;
+    background-color: black;
+}
+
+    #lado_esquerdo{
+        background-color: whitesmoke;
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+        #titulo{
+            display: flex;
+            height: 20%;
+            background-color: white;
+            justify-content: end;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+            #titulo_pagina{
+                font-size: 45px;
+                font-weight: bolder;
+            }
+
+        #icones{
+            display: flex;
+            height: 15%;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+        }
+            .classe_icone{
+                height: 60%;
+                border-radius: 10px;
+                margin: 7px;
+            }
+
+        #formulario{
+            display: flex;
+            height: 40%;
+            background-color: white;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+            .classe_inputs{
+                width: 250px;
+                height: 30px;
+                border: 0px;
+                margin-top: px;
+                border: solid 0px;
+                background-color: #D3D3D3;
+                border-radius: 2px;
+            }
+                .classe_inputs::placeholder{
+                    padding-left: 10px;
+                }
+
+            #botao{
+                width: 150px;
+                height: 35px;
+                color: white;
+                background-color:#DB7093;
+                border: solid 0px;
+                border-radius: 15px;
+                margin-top: 5px;
+            }
+                #botao:hover{
+                    width: 150px;
+                    height: 35px;
+                    color: white;
+                    background-color: darkgreen;
+                    border: solid 0px;
+                    border-radius: 15px;
+                    margin-top: 5px;
+                    font-weight: bolder;
+                    cursor: pointer;
+                }
+
+            #labelUm{
+                font-size: 15px;
+
+            }
+
+            #labelDois{
+                font-size: 20px;
+                margin-top: 10px;
+            }
+
+        #rodape{
+            height: 25%;
+            background-color: white;
+        }
+
+    #lado_direito{
+        display: flex;
+        background-color: #DB7093;
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+        #tituloDois{
+            color: white;
+            font-size: 50px;
+            font-weight: bolder;
+            margin-top: 10px;
+        }
+
+        #subtitulo{
+            color: white;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+        #botao_direito{
+            width: 150px;
+            height: 35px;
+            background-color: #DB7093;
+            border: solid 1px;
+            color: white;
+            border-radius: 15px;
+            margin-top: 70px;
+            font-weight: bolder;
+        }
+            #botao_direito:hover{
+                width: 150px;
+                height: 35px;
+                background-color: white;
+                border: solid 1px;
+                color: #DB7093;
+                border-radius: 15px;
+                margin-top: 70px;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+
