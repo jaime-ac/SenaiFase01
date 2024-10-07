@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de IMC</title>
+</head>
+<body>
+<!--TUTORIA IV
+Aluno: Jaime António Cá
+Professor: Lucas Naspolini
+Lógica de Programação - HTML & JS
+Data: 07/06/2024
+-->
+
+
+    <center>
+
+        <h1>Calculador de IMC</h1>
+        <img src="imagem Imc.png" width="200px" height="200px" >
+        <hr size="3px" width="500px" color="black"><br>
+
+        <label style="font-size: 20px;">Peso</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="pesoPessoa" type="number" placeholder="digite seu peso"><br><br>
+
+        <label style="font-size: 20px;">Altura</label>&nbsp;
+        <input id="alturaPessoa" type="number" placeholder="digite sua altura"><br><br><br>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button onclick="CalculoImc()" style="color: white; background-color: black; font-size: 30px; width: 150px; height: 40px;">Calcular</button><br><br><br>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label style="font-size: 20px;">IMC</label>&nbsp;&nbsp;
+        <input id="imcPessoa" type="number"><br><br>
+
+        <label style="font-size: 20px;">Resultado</label>&nbsp;
+        <input id="resultadoPessoa" type="text"><br><br><br>
+
+    </center>
+
+    <script src="calculoIMC.js"></script>
+    
+</body>
+</html>

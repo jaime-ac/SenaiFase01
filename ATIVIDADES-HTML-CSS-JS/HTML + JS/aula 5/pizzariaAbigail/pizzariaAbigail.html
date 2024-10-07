@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Abigail</title>
+</head>
+<body bgcolor="#228B22">
+
+    <!--SESI SENAI - FLN
+    JAIME ANTÓNIO CÁ
+    LUCAS NASPOLINI
+    LISTA II - HTML + JS
+    DATA: 11/06/2024-->
+
+    <center>
+
+        <h1>Pizzaria da Abigail</h1><br>
+
+        <label style="color: white; font-size: 18px;">Descontos de 15% em valores acima de R$50.00</label><br><br>
+
+        <b><label style="font-size: 20px;">Escolha sua pizza</label></b><br>
+
+        <select id="saborPizza" style="width: 150px; text-align: center;">
+
+            <option value="0"></option>
+            <option value="40">Lombinho</option>
+            <option value="50">Calabresa</option>
+            <option value="70">Portuguesa</option>
+            <option value="100">Camarão</option>
+
+        </select><br><br><br><br><br><br>
+
+        <button onclick="ComprarPizza()" style="color: white; background-color: black; font-size: 12px;">Comprar</button>&nbsp;&nbsp;<label>R$</label>&nbsp;<input id="valor" type="number" placeholder="Valor">&nbsp;&nbsp;<label>R$</label>&nbsp;<input id="valorFinal" type="number" placeholder="Valor Final">
+
+    </center>
+    
+    <script src="pizzariaAbigail.js"></script>
+
+</body>
+</html>

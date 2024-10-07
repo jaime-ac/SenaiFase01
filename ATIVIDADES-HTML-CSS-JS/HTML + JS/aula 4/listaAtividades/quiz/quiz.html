@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body background="">
+
+<!--SESI SENAI - FLN
+JAIME ANTÓNIO CÁ
+LUCAS NASPOLINI
+LISTA I - HTML + JS
+DATA: 11/06/2024-->
+
+    <center>
+
+        <b><label style="font-size: 30px;">Mini Quiz Maneiro</label></b><br><br><br><br>
+
+        <label style="font-size: 20px;">Pergunta 1: Qual é a capital de Angola?</label>&nbsp;&nbsp;<input id="respostaPergunta1" type="text" placeholder="digite sua resposta aqui"><br><br>
+
+        <label style="font-size: 20px;">Pergunta 2: Qual é a capital de Suécia?</label>&nbsp;&nbsp;<input id="respostaPergunta2" type="text" placeholder="digite sua resposta aqui"><br><br>
+
+        <label style="font-size: 20px;">Pergunta 3: Qual é a capital de Canada?</label>&nbsp;&nbsp;<input id="respostaPergunta3" type="text" placeholder="digite sua resposta aqui"><br><br><br>
+
+        <input id="radioAlert" type="radio" name="rad">&nbsp;<b><label style="font-size: 20px;">Alert</label></b>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="radioInput" type="radio" name="rad">&nbsp;<b><label style="font-size: 20px;">Input</label></b>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="radioDiv" type="radio" name="rad">&nbsp;<b><label style="font-size: 20px;">DIV</label></b><br><br>
+
+        <input id="caixaCheckbox" type="checkbox">&nbsp;<b><label style="font-size: 20px;">Quero ver meu resultado</label></b><br><br><br>
+
+        <button onclick="ResultadoQuiz()" style="color: white; background-color: grey; font-size: 25px;">Resultado</button>&nbsp;&nbsp;
+        <input id="inptSaida" type="text"><br><br>
+        
+        <div id="resultDiv">
+
+            <label style="font-size: 25px;"></label>
+
+        </div>
+
+    </center>
+    
+    <script src="quiz.js"></script>
+
+</body>
+</html>

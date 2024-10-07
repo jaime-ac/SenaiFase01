@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar & Logar</title>
+</head>
+
+<body bgcolor="#5454F2">
+    
+    <div id="cadastro">
+
+        <center>
+
+            <b><label style="color: white; font-size: 25px; width: 50%; text-align: center;">Cadastro</label></b><br><br>
+
+            <input id="cadastrarUser" type="text" placeholder="username"><br><br>
+
+            <input id="cadastrarSenha" type="password" placeholder="password"><br><br>
+
+            <input id="cadastrarEmail" placeholder="e-mail"><br><br><br>
+
+            <button onclick="Cadastrar()" style="color: black; background-color: yellow; width: 100px; height: 25px; border: 0cap; font-weight: bold;">Cadastrar</button>&nbsp;&nbsp;
+
+            <button onclick="Pesquisar()" style="color: black; background-color: yellow; width: 100px; height: 25px; border: 0cap; font-weight: bold;">Pesquisar</button>&nbsp;&nbsp;
+
+            <button onclick="Editar()" style="color: black; background-color: yellow; width: 100px; height: 25px; border: 0cap; font-weight: bold;">Editar</button>&nbsp;&nbsp;
+            
+            <button onclick="Excluir()" style="color: black; background-color: yellow; width: 100px; height: 25px; border: 0cap; font-weight: bold;">Excluir</button>&nbsp;&nbsp;
+            
+            <button onclick="Listar()" style="color: black; background-color: yellow; width: 100px; height: 25px; border: 0cap; font-weight: bold;">Listar</button>&nbsp;&nbsp;
+
+
+        </center>
+        
+    </div><br><br><br>
+
+    <!--<hr size="5", noshade="", color="yellow", align="center", width="500"><br><br>-->
+
+    <div id="login">
+
+        <center>
+
+            <b><label style="color: white; font-size: 25px; width: 50%;">Login</label></b></b><br><br>
+
+            <input id="loginUser" type="text" placeholder="username"><br><br>
+
+            <input id="loginSenha" type="password" placeholder="password"><br><br>
+
+            <button onclick="Logar()" style="color: black; background-color: green; width: 100px; height: 25px; border: 0cap; font-weight: bold;">Logar</button>
+
+
+        </center>
+
+
+    </div><br><br><br>
+
+    <div id="listar">
+
+        <center>
+
+            <label id="divListar" style="color: white;">Nenhum dado de usuário cadastrado</label>
+
+        </center>
+
+
+    </div>
+
+
+    <script src="crudCadastrarLogin.js"></script>
+    
+</body>
+</html>

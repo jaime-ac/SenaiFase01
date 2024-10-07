@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desconto em Produtos</title>
+</head>
+<body>
+
+    <center>
+
+        <h2>Desconto em Produtos</h2>
+        <hr size="5", noshade="", color="grey", width="500"><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><label>Descrição</label></b>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><label>Quantidade</label></b>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><label>Valor</label></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+
+        <input id="produto1" type="text" placeholder="Produto 1">&nbsp;&nbsp;<input id="quantidadeProduto1" type="number">&nbsp;&nbsp;<input id="valorProduto1" type="number"><br><br>
+
+        <input id="produto2" type="text" placeholder="Produto 1">&nbsp;&nbsp;<input id="quantidadeProduto2" type="number">&nbsp;&nbsp;<input id="valorProduto2" type="number"><br><br>
+
+        <input id="produto3" type="text" placeholder="Produto 3">&nbsp;&nbsp;<input id="quantidadeProduto3" type="number">&nbsp;&nbsp;<input id="valorProduto3" type="number"><br><br>
+
+        <input id="produto4" type="text" placeholder="Produto 4">&nbsp;&nbsp;<input id="quantidadeProduto4" type="number">&nbsp;&nbsp;<input id="valorProduto4" type="number"><br><br><br>
+
+        <b><label>Valor sem Desconto</label></b>&nbsp;&nbsp;<label>R$ </label><input id="valorSemDesconto" type="number" min="0" max="100"><br><br>
+
+        <b><label>Percentual de Desconto</label></b>&nbsp;&nbsp;<input id="desconto" type="number" min="0" max="100"><label> % </label><br><br><br>
+
+        <button onclick="Calcular()" style="color: white; background-color: black; width: 190px; font-size: 13px;" >Calcular</button>&nbsp;&nbsp;&nbsp;&nbsp;<label>R$ </label><input id="valorFinal" type="number" placeholder="Valor Final" width="150px">
+
+    </center>
+
+    <script src="descontoProdutos.js"></script>
+    
+</body>
+</html>

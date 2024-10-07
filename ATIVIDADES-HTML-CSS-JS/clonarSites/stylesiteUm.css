@@ -1,0 +1,57 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+#container{
+    display: flex;
+    height: 100%;
+    background-color: black;
+}
+
+    #lado_esquerdo{
+        background-color: whitesmoke;
+        height: 100%;
+        width: 50%;
+    }
+        #titulo{
+            display: flex;
+            height: 20%;
+            background-color: white;
+        }
+            #titulo_pagina{
+                font-size: 50px;
+                font-weight: bolder;
+                align-self: self-end;
+                align-items: center;
+            }
+
+        #icones{
+            display: flex;
+            height: 15%;
+            background-color: blue;
+            justify-content: space-evenly;
+        }
+            .classe_icone{
+                height: 80%;
+            }
+
+        #formulario{
+            height: 55%;
+            background-color: darkgreen;
+        }
+
+        #rodape{
+            height: 10%;
+            background-color: aquamarine;
+        }
+
+    #lado_direito{
+        background-color: #DB7093;
+        height: 100%;
+        width: 50%;
+    }
